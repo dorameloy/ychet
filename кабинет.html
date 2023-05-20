@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="All_header_menu">
+        <div class="Logo">
+        <h1>System</h1>
+    </div>
+    <div class="Top_menu">
+        <ul>
+            <li><a href="главная.html">Главная</a></li>
+            <li><a href="Регистрация.html">Регистрация</a></li>
+            <li><a href="#">Личный кабинет</a></li>
+            <li><a href="учет.html">Учет оборудования</a></li>
+            <li><a href="отчет.html">Отчеты</a></li> 
+        </ul>
+    </div>    
+    </div>
+    </header>
+        <div class="profile-main">
+        <div class="profile-header">
+        <div class="user-detail">
+        <div class="user-image">
+        <img src="img/профиль.png">
+        </div>
+        <div class="user-data">
+        <h2>Иван Иванов</h2>
+        <span class="post-label">Администратор</span>
+        <p>Находится<strong>ОНЛАЙН</strong><br>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;404 кабинет
+        </p>
+        </div>
+        </div>
+        <div id="Basic-detail" class="tab-content current">
+        <div class="skill-box">
+        <ul>
+        <li><strong>Работа с документацией:</strong></li>
+        <li>Отчеты<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></li>
+        <li>Добавить отчет<i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        </div>
+        <div class="detail-box">
+        <p>Подробнее</p>
+        <ul class="ul-first">
+        <li>Дата рождения</li>
+        <li>Город</li>
+        <li>Страна</li>
+        <li>Связь</li>
+        </ul>
+        <ul class="ul-second">
+        <li>12.05.1996</li>
+        <li>Оренбург</li>
+        <li>Россия</li>
+        <li>+792250*****</li>
+        </ul>
+        </div>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+        });
+        });
+        </script>
+        </body>
+</body>
+</html>

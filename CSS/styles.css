@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header {
+	height: 100vh;
+	background: linear-gradient(rgba(33, 8, 80, 0.8), rgba(31, 7, 65, 0.4)), url(03.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.Logo, .Top_menu{
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Top_menu li{
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+} 
+.Top_menu a{
+    vertical-align: middle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.Top_menu a:hover{
+    color: blueviolet;
+}
+.Logo h1{
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+.text {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.link a{
+    vertical-align: middle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 25px;
+    display: inline-block;
+}
+.description {
+	top: 35%;
+	left: 10%;
+	width: 35%;
+	position: absolute;
+}
+
+.description h1 {
+	margin: 0;
+	font-size: 40px;
+	color: #fff;
+}
+
+.description p {
+	color: #c7c7c7;
+	font-size: 20px;
+}
+
+.shop {
+	background: none;
+	border: 2px solid #794e9c;
+	text-decoration: none;
+	color:  #794e9c;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: .4s;
+}
+
+.shop:hover {
+	background: #360d55;
+	color: #fff;
+}
+
+.post-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social li {
+	padding: 0 15px 0 0;
+}
+
+.social li a {
+	color: #c7c7c7;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.post-nav {
+	display: flex;
+	list-style: none;
+}
+
+.post-nav li {
+	padding: 0 30px 0 0;
+}
+
+.post-nav li a {
+	color: #c7c7c7;
+	text-decoration: none;
+	font-size: 18px;
+}
